@@ -68,9 +68,18 @@ form-control :focus
     box-shadow: none;
 }
 #btnList{
-  margin-top: 20px;
+  margin-top: 20px
 }
 #btnSalva
 {
-  margin-left: -15px;
+  width: 85%;
+}
+#cancelar
+{
+  margin-left:-px
+}
+#btnReturn
+{
+  margin-top: 5%;
+  
 }

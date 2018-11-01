@@ -121,11 +121,6 @@ $(document).on("click","#editar", function(){
 });
 $(document).on("click","#cancelar", function(){
    desabilita();
-    $("#modelo").val("");
-          $("#cor").val("");
-          $("#fabricante").val("");
-          $("#ano").val("");
-          $("#valor").val("");
 });
 function desabilita(){
     $("#modelo").prop('readonly',true);
